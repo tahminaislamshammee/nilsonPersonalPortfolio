@@ -1,0 +1,65 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .portfolio-menu {
+        padding: 87px 60px;
+    }
+    .portfolio-menu h4 {
+        font-size: 50px;
+    }
+    .portfolio-menu ul li.active::after {
+        right: 47px;
+    }
+    .testimonial-wrapper::before {
+        top: 85px;
+    }
+    .blog-meta ul li {
+        font-size: 13px;
+        margin-right: 6px;
+    }
+  
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*mobile-menu*/
+.mobile-menu {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+    .mean-container .mean-bar {
+        background-color: transparent;
+        min-height: 0;
+    
+        
+    }
+    .mean-container a.meanmenu-reveal {
+        margin-top: -50px;
+    }
+    .mean-container .mean-nav {
+        float: right;
+        width: 45%;
+        margin-top: -2px;
+        
+    }
+   
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+  
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+}
